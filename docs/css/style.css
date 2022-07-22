@@ -148,17 +148,6 @@ body {
           flex: 1 1 auto;
 }
 
-.header.__fixed {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  -webkit-transition: background-color 0.5s ease 0s;
-  -o-transition: background-color 0.5s ease 0s;
-  transition: background-color 0.5s ease 0s;
-}
-
 .header {
   background: #FCFCF0;
   position: fixed;

@@ -1,6 +1,6 @@
 window.onscroll = function showHeader() {
    let fixedHeader = document.querySelector('.header');
-   if (window.pageYOffset > 25) {
+   if (window.pageYOffset > 125) {
       fixedHeader.classList.add('__fixed');
    } else {
       fixedHeader.classList.remove('__fixed');

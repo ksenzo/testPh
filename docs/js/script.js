@@ -1,3 +1,14 @@
+window.onscroll = function showHeader() {
+   let fixedHeader = document.querySelector('.header');
+   let content = document.querySelector('.content');
+   if (window.pageYOffset > 0) {
+      fixedHeader.classList.add('__fixed');
+      content.classList.add('__fixed');
+   } else {
+      fixedHeader.classList.remove('__fixed');
+      content.classList.remove('__fixed');
+   }
+};
 
 let openMenuBtn = document.querySelector('.header__burger');
 let closeMenuBtn = document.querySelector('.header__close-menu');
